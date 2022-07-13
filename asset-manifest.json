@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bangking/static/css/main.56fd864b.css",
+    "main.js": "/bangking/static/js/main.0bf09a01.js",
+    "static/media/login-bg.jpg": "/bangking/static/media/login-bg.81f9f79e13a49521fcf8.jpg",
+    "static/media/flag.jpg": "/bangking/static/media/flag.0289ffbbf4f20dd1765d.jpg",
+    "static/media/logo.jpg": "/bangking/static/media/logo.659c0de9bfac3ba86eba.jpg",
+    "static/media/index-header.jpg": "/bangking/static/media/index-header.222f54e6d4b010ce4cda.jpg",
+    "index.html": "/bangking/index.html",
+    "main.56fd864b.css.map": "/bangking/static/css/main.56fd864b.css.map",
+    "main.0bf09a01.js.map": "/bangking/static/js/main.0bf09a01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56fd864b.css",
+    "static/js/main.0bf09a01.js"
+  ]
+}
