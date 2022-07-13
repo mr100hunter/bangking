@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2rem;
+        width: 100%;
+        background-image: url(../img/footer-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 6rem;
+        padding: 0;
+        li{
+            position: relative;
+            img{
+                padding: 1rem;
+                width: 45%;
+            }
+            img.middleMan {
+                width: 70% !important;
+            }            
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

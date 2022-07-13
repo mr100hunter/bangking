@@ -1,0 +1,9 @@
+section.slider {
+  margin-top: 5rem;
+  min-height: 100vh;
+  background-image: url(../img/index-header.jpg);
+  z-index: -1;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=main.css.map */

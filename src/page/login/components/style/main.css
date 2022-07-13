@@ -1,0 +1,119 @@
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#login #laguage {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  height: 5rem;
+  width: 10rem;
+  cursor: pointer;
+}
+#login #laguage img {
+  height: 100%;
+  width: 100%;
+}
+#login a.forget {
+  display: block;
+  width: 90%;
+  padding: 1rem;
+  float: right;
+  text-align: end;
+  font-size: 2rem;
+  color: var(--color);
+  cursor: pointer;
+}
+#login .loginForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login .loginForm .form {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#login .loginForm .form div#logo {
+  height: 6rem;
+  width: 6rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#login .loginForm .form div#logo img {
+  width: 100%;
+  height: 100%;
+}
+#login .loginForm .form .box {
+  padding: 1rem 2rem;
+  width: 90%;
+  border: 1px solid #cacaca;
+  overflow: hidden;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+#login .loginForm .form .box span {
+  border-right: 1px solid var(--color);
+  padding: 1rem;
+}
+#login .loginForm .form .box svg {
+  font-size: 2rem;
+  color: var(--color);
+}
+#login .loginForm .form .box input {
+  padding: 1rem 0rem;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  color: var(--color);
+}
+#login .loginForm .form .submit {
+  padding: 1rem 2rem;
+  width: 90%;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  border-radius: 5px;
+  background: var(--bg-color);
+}
+#login .loginForm .form .submit input {
+  color: white;
+  cursor: pointer;
+}
+#login .loginForm .form .signup {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+#login .loginForm .form .signup a {
+  color: var(--color);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+  #laguage {
+    height: 5rem !important;
+    width: 10rem !important;
+  }
+  div#logo {
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+}/*# sourceMappingURL=main.css.map */
